@@ -10,6 +10,7 @@ package datosPersoa;
  * @author Josemolamazo
  */
 public class Persoal {
+
     private String telefono;
     private String correo;
 
@@ -39,8 +40,7 @@ public class Persoal {
 
     @Override
     public String toString() {
-        return "Datos persoais : "+"\nTeléfono=" + telefono + "\nCorreo=" + correo;
+        return "***Datos persoais***" + "\nTeléfono: " + telefono + "\nCorreo: " + correo;
     }
-    
-    
+
 }

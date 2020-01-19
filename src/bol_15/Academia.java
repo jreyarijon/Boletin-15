@@ -6,7 +6,6 @@
 package bol_15;
 
 import datosPersoa.Persoal;
-import notamediaav.Nota;
 
 /**
  *
@@ -39,7 +38,7 @@ public class Academia {
     }
 
     public int getNota() {
-        
+
         return nota;
     }
 
@@ -58,7 +57,7 @@ public class Academia {
 
     @Override
     public String toString() {
-        return "Datos da clase =" + "\nnº referencia: " + numReferencia + "\nnome =" + nome + "\nnota=" + nota + "\nalumno=" + alumno;
+        return "***DATOS***" + "\nnº referencia: " + numReferencia + "\nNome: " + nome + "\nNota: " + nota+"\n" + alumno;
     }
 
 }

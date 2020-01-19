@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package bol_15;
+
 import datosPersoa.Persoal;
 import notamediaav.Nota;
 
@@ -18,11 +19,11 @@ public class Aplicacion {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Persoal Jose = new Persoal("123 456 789","jose@mail");
+        Persoal jose = new Persoal("123 456 789", "jose@mail");
         Nota notaAV = new Nota();
-       
-        Academia neno = new Academia(Academia.numReferencia,"Jose", notaAV.getTotal(), Jose);
-        neno.toString();
+
+        Academia ac = new Academia(Academia.numReferencia, "Jose", notaAV.media(), jose);
+        System.out.println(ac.toString());
     }
-    
+
 }
